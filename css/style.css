@@ -1,0 +1,354 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    
+}
+.body_1{
+    background-color: #E5F7F9;
+}
+.navbar-expand-lg{
+    display: flex;
+}
+.navbar-brand {
+    margin-left: 100px;
+    transform: scale(1.2);
+    background-color: #E8C1A0;
+    border-radius: 10px;
+    
+}
+.modal-header ,.modal-body,.modal-footer{
+    background-color: #E8C1A0;
+}
+.btn {
+    margin-right: 20px;
+}
+
+.btn :hover {
+    color: #000;
+}
+.carousel-inner {
+    height: 560px;
+}
+
+.icons {
+    margin-left: 90%;
+    margin-top: -430px;
+    position: absolute;
+    position: fixed;
+}
+
+.i1 {
+    display: block;
+    padding: 10px;
+    font-size: 45px;
+    cursor: pointer;
+    color: black;
+
+
+}
+.i1:hover{
+    color: #005a9a;
+    transform: scale(1.3);
+}
+.details{
+    width: 800px;
+    height: 140px;
+    margin-top: -290px;
+    opacity: 0.8;
+    margin-left:20%; 
+    background-color: #C09D7D;
+    position: absolute;
+
+}
+.details_1{
+    width: 800px;
+    height: 140px;
+    margin-top: -600px;
+    opacity: 0.8;
+    margin-left:20%; 
+    background-color: #C09D7D;
+    position: absolute;
+}
+.details_2{
+    width: 800px;
+    height: 140px;
+    margin-top: -600px;
+    opacity: 0.6;
+    margin-left:20%; 
+    background-color: #C09D7D;
+    position: absolute;
+}
+.section3{
+    margin-top: 50px;
+}
+/* end header */
+.img-slide{
+    object-fit: cover;
+    
+}
+.welcome{
+    width: 80%;
+    height: 250px;
+    margin-left: 10%;
+    border-radius: 10px;
+    background-color: #E8C1A0;
+}
+.popular_place{
+    width: 80%;
+    height: 150px;
+    margin-left: 10%;
+    border-radius: 10px;
+    background-color: #4D5D74;
+    color: white;
+}
+.accordion {
+    width: 80%;
+    margin-left: 9%;
+    transform: scale(0.9);
+    border-radius: 15px solid black;
+    background-color: #7E6453;
+}
+.accordion-header{
+    background-color: #7E6453;
+}
+.h1_translate{
+    text-align: center;
+    background-color: #4D5D74;
+    border-radius: 10px;
+    color: white;
+    margin-top: 15px;
+}
+.section4{
+    width: 80%;
+    margin-left: 10%;
+}
+.copy{
+    width: 100%;
+    height: 300px;
+    background-color: #E8C1A0;
+    margin-top: -8px;
+}
+.h2_copy{
+    margin-left: 50px;
+    padding-top: 30px;
+    
+}
+.back_image{
+    width: 80%;
+    height: 50vh;
+    margin-left: 10%;
+    background-image: url(../siwa/IMG-20230227-WA0039.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    border: 2px ;
+    margin-top: 50px;
+}
+.back_image1{
+    width: 80%;
+    height: 50vh;
+    margin-left: 10%;           
+    background-image: url(../siwa/IMG-20230227-WA0042.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    border: 2px ;
+    margin-top: 50px;
+}
+.h1_section5{
+    width: 80%;
+    height: 70px;
+    margin-left: 10%;
+    border-radius: 10px;
+    text-align: center;
+    background-color: #4D5D74;
+    color: white;
+    padding-top: 10px;
+}
+.col{
+    margin-left: 40px;
+    padding: 20px;
+}
+.card:hover{
+    transform: scale(1.1);
+    transition: 1s;
+    background-color: #E8C1A0;
+}
+.card-img-top{
+    height: 300px;
+}
+.img{
+   height: 300px;
+}
+.btn_card{
+    margin-left: 25px;
+}
+.Info{
+    width: 200px;
+    height: 430px;
+    border-radius: 15px;
+    background-image: url(../siwa/2020-09-21.jpg);
+    background-size: cover;
+    transform: scale(0.8);
+}
+.Info:hover{
+    transform: scale(0.7);
+    transition: 1s;
+}
+.rounded-circle{
+    width: 120px;
+    height: 100px;
+    transform: scale(1.1);
+    margin-top: 180px;
+    margin-right: 120px;
+}
+.h1_Info,.p_Info{
+    background-color: #E8C1A0;
+    border-radius: 15px;
+}
+.p_circle{
+    width: 150px;
+    display: block;
+    background-color: #4D5D74;
+    color:white;
+    border-radius: 15px;
+    margin-top: 10px;
+    margin-left:25px;
+}
+
+.Info1{
+    width: 200px;
+    height: 430px;
+    border-radius: 15px;
+    background-image: url(../siwa/resort.jpg);
+    background-size: cover;
+    transform: scale(0.8);
+}
+.Info1:hover{
+    transform: scale(0.7);
+    transition: 2s;
+}
+.Info2{
+    width: 200px;
+    height: 430px;
+    border-radius: 15px;
+    background-image: url(../siwa/1-12.jpg);
+    background-size: cover;
+    transform: scale(0.8);
+}
+.Info2:hover{
+    transform: scale(0.7);
+    transition: 2s;
+}
+.jumbotron{
+    width: 80%;
+    height: 400px;
+    background-color: #E8C1A0;
+    color: black;
+    border-radius: 10px;
+    box-shadow: 10px 10px 8px 10px #4D5D74;
+    margin-left: 10%;
+    transform: scale(0.9);
+}
+.line{
+    width: 150px;
+    height: 5px;
+    border-radius: 20px;
+    background-color: #4D5D74;
+    margin-left: 55px;
+    margin-top: 20px;
+
+}
+.display-4{
+    margin-left: 50px;
+}
+.lead{
+    margin-left: 50px;
+    
+}
+.btn_jumbotron{
+    margin-top: -200px;
+    margin-left: 50px;
+    transform: scale(0.8);
+}
+.btn2_jumbotron{
+    margin-left: -50px;
+    margin-top: -200px;
+    transform: scale(0.8);
+}
+.i2{
+    padding-left: 5px;
+}
+
+.img_jumbotron{
+    margin-left:72.3%;
+    margin-top: -138px;
+    clip-path: polygon(-1% -15%, 100% 0%, 116% 101%, 20% 111%);
+}
+/* //////////////////////////////////////////////// */
+.footer{
+    width: 80%;
+    margin-left: 8%;
+    margin-top: 50px;
+}
+.display-5{
+    margin-left: 40%;
+}
+.lead1{
+    margin-left: 43%;
+    transform: scale(1.1);
+}
+.line1{
+    width: 150px;
+    height: 5px;
+    border-radius: 20px;
+    background-color: #4D5D74;
+    margin-left: 40%;
+    margin-top: 20px;
+}
+.line1:hover{
+    background-color: #005a9a;
+    transform: scale(1.1);
+}
+.img1_jumbotron{
+    margin-top: -123px;
+    clip-path: polygon(-1% -4%, 88% -2%, 46% 99%, -2% 105%);
+}
+.btn3_jumbotron{
+    margin-left: 39%;
+    margin-top: -200px;
+    transform: scale(0.8);
+}
+.btn4_jumbotron{
+    margin-left: -50px;
+    margin-top: -200px;
+    transform: scale(0.8);
+}
+/* /////footer///////////// */
+.img_footer{
+    
+    transform: scale(0.4);
+}
+.d-flex{
+    margin-left: 50px;
+    background-color: #E8C1A0;
+}
+.col-md-4{
+    margin-right: 60px;
+    font-size: 18px;
+}
+.i3 {
+    display: block;
+    font-size: 30px;
+    cursor: pointer;
+
+}
+.i3:hover{
+    color: #005a9a;
+    transform: scale(1.3);
+}
+.py-3{
+    background-color: #E8C1A0;
+    margin-left: 50px;
+    border-radius: 20px;
+    font-size: 18px;
+}
